@@ -14,8 +14,9 @@ import "bootstrap/dist/css/bootstrap.css";
 function MainPage() {
 
   return (
-    <div>
-      
+    <div className="welcome-message">
+      <h3>
+      </h3>
     </div>
   );
 }
