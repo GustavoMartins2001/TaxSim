@@ -25,8 +25,26 @@ function MainPage() {
         certo.
       </h4> 
     </div>
-    <div className="whiteCard">
-      
+    <div className = "whiteCard">
+      <form className = "main-form">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm">
+              <label for = "#valorInicial"><bold>Valor inicial</bold></label>
+              <input id="valorInicial" className = "form-control"></input>
+            </div>
+            <div className="col-sm">
+              <label for = "#valorInicial"><bold>Prazo</bold></label>
+              <input id="valorInicial" className = "form-control"></input>
+            </div>
+            <div className="col-sm">
+              <label for = "#valorInicial"><bold>Meses</bold></label>
+              <input id="valorInicial" className = "form-control"></input>
+            </div>
+          </div>
+          
+        </div>
+      </form>
     </div>
     </div>
     
